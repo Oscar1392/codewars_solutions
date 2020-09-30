@@ -1,0 +1,10 @@
+function isPalindrome(num){
+let last = num % 10;
+let middle = (num - last) / 10 % 10;
+let first = (num - middle * 10 - last) / 100;
+if (last === first){
+return "palindrome";
+} else {
+return "not a palindrome";
+}
+}
