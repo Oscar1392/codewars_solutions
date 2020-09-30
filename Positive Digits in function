@@ -1,0 +1,10 @@
+function countOfPositive(a, b, c){
+if (a>0 && b>0 && c>0){
+return 3;
+} else if ( a <= 0 && b > 0 && c > 0 || b <= 0 && a > 0 && c > 0 || c <= 0 && a > 0 && b > 0){
+return 2;
+}
+else {
+return 1
+}
+};
