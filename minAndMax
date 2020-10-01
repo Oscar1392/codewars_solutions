@@ -1,0 +1,18 @@
+function minAndMax(a, b, c){
+let max = 0;
+let min = 0;
+if(a>b && a>c) {
+max = max + a;
+}if(b>a && b>c){
+max= max + b;
+}if(c>a && c>b){
+max= max + c;
+}if(a<b && a<c) {
+min = min + a;
+}if(b<a && b<c){
+min= min + b;
+}if(c<a && c<b){
+min= min + c;
+}
+return [min, max];
+}
