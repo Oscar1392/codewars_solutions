@@ -1,0 +1,19 @@
+function countOfPosAndNeg(a, b, c){
+let countOfPositive = 0;
+let countOfNegative = 0;
+let arr = [];
+if (a > 0){
+countOfPositive++;
+} if (b > 0){
+countOfPositive++;
+} if (c > 0){
+countOfPositive++;
+} if (a < 0) {
+countOfNegative++;
+} if (b < 0) {
+countOfNegative++;
+} if (c < 0) {
+countOfNegative++;
+}
+return arr = [countOfPositive, countOfNegative];
+}
