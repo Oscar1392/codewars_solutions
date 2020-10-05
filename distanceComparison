@@ -1,0 +1,11 @@
+function distanceComparison(x1, y1, x2, y2){
+let x = Math.sqrt((x1 * x1) + (y1 * y1))
+let y = Math.sqrt((x2 * x2) + (y2 * y2))
+if (x < y){
+return 1;
+} else if (x > y){
+return 2;
+} else {
+return 0;
+}
+}
