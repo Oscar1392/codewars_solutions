@@ -1,0 +1,14 @@
+//https://www.codewars.com/kata/57d448c6ba30875437000138/train/javascript
+
+function roots(a,b,c){
+let discriminant = b * b - 4 * a * c;
+let root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+let root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+if (discriminant > 0){
+return +(root1 + root2).toFixed(2);
+} else if (discriminant === 0){
+return +(-b / a).toFixed(2);
+} else {
+return null;
+} 
+}
