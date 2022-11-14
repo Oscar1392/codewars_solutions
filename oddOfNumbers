@@ -1,0 +1,12 @@
+//odd of numbers from 1 to n
+
+function sumOfOdd(n){
+let m = 0;
+let i = 1;
+while(i <= n) {
+if (i % 2 == 1){
+m += i;
+} i += 1;
+  }
+  return m;
+}
